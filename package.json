@@ -1,0 +1,27 @@
+{
+  "name": "performance",
+  "version": "1.0.0",
+  "description": "A Vue hook that collect performance info",
+  "exports": {
+    "./usePerformance": "./src/usePerformance.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Vue hook"],
+  "author": "zhangtianwen",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^3.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keep-alive/performance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keep-alive/performance/issues"
+  }
+}
